@@ -1027,3 +1027,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+.modal-button {
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+}

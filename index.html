@@ -396,7 +396,25 @@
                 </li>
             </ul>
         </div>
+        <div class="footer-follow-sub">
+            <h3 class="footer-follow-title">Подпишитесь на рассылку</h3>
+            <div class="form-follow">
+                <form action="#" class="form-follow-form">
+                    <label for="user-email" class="form-input-label">
+                    </label>
+                    <input type="email" name="footer-user-email" id="user-email" class="footer-form-input" placeholder="E-mail">
+                    <button type="submit" class="footer-follow-btn">
+                        Подписаться
+                        <svg class="follow-sub-icon" width="24px" height="24px">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+        
+            </div>
         </div>
+        </div>
+        
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -405,6 +423,66 @@
                     <use href="./images/icons.svg#close-modal"></use>
                 </svg>
             </button>
+            <p class="modal-title">
+                Оставьте свои данные, мы вам перезвоним
+            </p>
+            <form action="#" class="modal-form">
+                <div class="modal-field">
+                    <label for="user-name" class="form-input-label">
+                        Имя
+                    </label>
+                    <div class="input-warp">
+                        <input type="text" name="user-name" id="user-name" class="modal-form-input" required><svg class="input-icon"
+                            width="18px" height="18px">
+                            <use href="./images/icons.svg#name-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-tel" class="form-input-label">
+                        Телефон
+                    </label>
+                    <div class="input-warp">
+                        <input type="tel" name="user-tel" id="user-tel" class="modal-form-input"
+                            pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required><svg class="input-icon"
+                            width="18px" height="18px">
+                            <use href="./images/icons.svg#phone-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-e-mail" class="form-input-label">
+                        Почта
+                    </label>
+                    <div class="input-warp">
+                        <input type="email" name="user-email" id="user-e-mail" class="modal-form-input" required><svg
+                            class="input-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#email-icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-text" class="form-input-label">
+                        Комментарий
+                    </label>
+                    <textarea type="text" name="user-text" id="user-text" class="modal-form-text" required
+                        placeholder="Введите текст"></textarea>
+                </div>
+                <div class="modal-field-check">
+                    <input class="modal-check visually-hidden" type="checkbox" name="policy" id="policy"><label for="policy"
+                        class="check-text">
+                        <span class="check-item">
+                            <svg class="check-icon" width="11px" height="8px">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        Соглашаюсь с рассылкой и принимаю
+                        <a href="" class="policy-link"> Условия договора</a>
+                    </label>
+                </div>
+                <button type="submit" class="modal-button">Отправить</button>
+            </form>
+            </div>
         </div>
     </div>
     <script src="./css/js/modal.js"></script>

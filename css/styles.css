@@ -979,7 +979,7 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-field {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .modal-field-check {
   margin-bottom: 30px;
@@ -989,7 +989,7 @@ body {
   color: var(--third-title-color);
   margin-bottom: 4px;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
 }
 .input-warp {
   position: relative;

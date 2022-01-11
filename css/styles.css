@@ -765,12 +765,6 @@ body {
   text-align: center;
   justify-content: center;
 }
-.form-input-label {
-  letter-spacing: 0.01em;
-  color: var(--third-title-color);
-  margin-bottom: 4px;
-  display: block;
-}
 .footer-form-input {
   width: 358px;
   height: 50px;
@@ -811,6 +805,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 .follow-sub-icon {
   margin-left: 10px;
@@ -994,6 +989,7 @@ body {
   color: var(--third-title-color);
   margin-bottom: 4px;
   display: block;
+  font-size: 14px;
 }
 .input-warp {
   position: relative;
@@ -1055,4 +1051,5 @@ body {
 }
 .checkbox-text {
   margin-right: 5px;
+  color: var(--third-title-color);
 }
